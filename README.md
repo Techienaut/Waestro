@@ -1,6 +1,6 @@
 # Waestro
 
-Waestro helps an AI teach you one step at a time. It plans a course, explains small ideas, and gives you practice. It chooses diagrams, tables, or images to fit the lesson, keeping them simple when that is enough.
+Waestro helps an AI teach you one step at a time. It plans a course, explains small ideas, and gives you practice. Each lesson includes a new image. Simple ideas get quick diagram images; more detail is added when the lesson needs it.
 
 ## Set it up
 

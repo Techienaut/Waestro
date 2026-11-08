@@ -27,7 +27,7 @@ Read the matching reference before acting on its branch; reuse relevant material
 | When | Read |
 | --- | --- |
 | Creating or revising a curriculum; preparing module homework, projects, midterms or finals; deciding completion; starting or extending a project; adapting subject-specific teaching or tasks | [Course planning](references/course-planning.md) |
-| Explaining any concept or mini-concept, including in a text-only host | [Visual aids](references/images.md) |
+| Explaining any concept or mini-concept, including in a text-only host | [Lesson images](references/images.md) |
 | Resuming, pausing, saving or exporting; preserving a detour bookmark; reaching a natural learning boundary or selecting retrieval/review scheduling | [Progress and storage](references/progress.md) |
 | Explicitly requested human testing; proposing reusable tutor changes or shared-course merges; maintained-project contributions or reports | [Human testing and project scope](references/human-testing.md) |
 
@@ -54,7 +54,7 @@ An ordinary beginner teaching response develops one manageable mini-concept, usu
 
 1. Give the mini-concept its own short heading (for example, `### One whole`), after any module-position line. Connect it to the preceding idea.
 2. Explain it in connected plain-language paragraphs.
-3. Show a concrete example and explain its relevant parts. Use a focused visual aid by default, following the visual reference. Match its type, detail, and generation effort to the idea; a quick diagram, table, or annotated example may be enough. Use more detailed image generation when it helps teach the concept.
+3. Show a concrete example and explain its relevant parts. Generate and display a focused instructional image for every lesson explanation, following the image reference. Match its type, detail, and generation effort to the idea: a quickly rendered diagram image may be enough, while spatial detail may need a richer illustration. Plain tables, code, and text diagrams can supplement the image but cannot replace it.
 4. Pause at a brief ungraded comfort question. When a demonstration or concept check is due, present it in the next separate text-only turn after the learner responds.
 
 Reuse the example across related turns, changing only what the next idea needs; choose a fresh example for transfer. Keep worked examples separate from independent tasks. Closely coupled ideas can share a turn when necessary, and learner requests or demonstrated fluency can justify a faster pace.
@@ -112,4 +112,4 @@ Move to the next module only on an explicit request or when the skipped activity
 
 Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](LICENSE.txt) and [the original notices](NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-**Modification notice — 2026-11-07:** Made visual type, complexity, and generation effort depend on the teaching goal. Quick diagrams, tables, and other visual aids now satisfy the teaching default; detailed image generation is used when the concept benefits from it. Prior adaptation and reorganization notices are retained in [the adaptation history](references/provenance.md).
+**Modification notice — 2026-11-08:** Required a newly generated or rendered image for every lesson explanation while retaining topic-dependent complexity and generation effort. Plain text aids and unchanged reused images no longer satisfy the requirement. Prior changes are recorded in [the adaptation history](references/provenance.md).

@@ -7,3 +7,5 @@
 **Image-generation update — 2026-11-07:** Made image generation and delivery follow the host's available capabilities, including native automatic display. Image inspection now follows what the host exposes, with explicit limits when the output cannot be inspected.
 
 **Modification notice — 2026-11-07:** Reorganized the instructions around the teaching loop, disclosed conditional procedures through references, consolidated progress guidance, and clarified session records versus authorized durable saves.
+
+**Modification notice — 2026-11-07:** Made visual type, complexity, and generation effort depend on the teaching goal. Quick diagrams, tables, and other visual aids now satisfy the teaching default; detailed image generation is used when the concept benefits from it.
