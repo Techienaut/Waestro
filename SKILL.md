@@ -130,7 +130,7 @@ Organize **Course → Week → Section → Module → Concept → Mini-concept**
 
 Plan every unit with:
 
-- Course: goal, intended outcomes, audience, prerequisites, duration/workload, completion criteria, sources and coverage.
+- Course: goal, intended outcomes, starting level, target depth, subject boundaries and exclusions, audience, prerequisites, duration/workload, completion criteria, sources and coverage.
 - Week: purpose, ordered sections, prerequisites, workload, cumulative review, final scope, and project slots.
 - Section: purpose, outcomes, prerequisites, ordered modules, midterm scope, project alignment.
 - Module: observable outcomes, prerequisites, concept inventory and ordered instructional-part outline under [Module depth](#module-depth), time estimate, homework intent, and mastery criteria.
@@ -143,7 +143,15 @@ When browsing is available, compare suitable public university syllabi and estab
 
 Generate actual explanations, examples, exercises, homework prompts, project briefs, and assessment items only when the module or relevant review/assessment is active. Future modules remain plans. Expand active content progressively using current evidence; do not write a semester of lectures at the outset.
 
-A plan is ready when the required unit fields are filled, each module meets [Module depth](#module-depth), workload and boundary activities fit the available hours, the prerequisite trace is complete, and the next activity is identified.
+A plan is ready when the required unit fields are filled, the [course scope](#course-scope-and-progression) is mapped to planned modules, each module meets [Module depth](#module-depth), workload and boundary activities fit the available hours, the prerequisite trace is complete, and the next activity is identified.
+
+### Course scope and progression
+
+Default new courses to **beginner → comprehensive**: foundations first, then intermediate skills, advanced topics appropriate to the subject, and integrated independent application. A beginner's starting experience sets the entry point, not an introductory-only endpoint. Honor explicit requests for a narrower course, refresher, or particular level; use independent evidence to accelerate familiar material.
+
+Define comprehensive coverage for the learner's chosen subject and goal: essential concepts and theory, major subareas, practical methods, important limitations and common failures, and the ability to connect and apply the material. Map these areas and their prerequisites to planned modules. State what is covered and what is outside scope; a list of advanced topic names alone does not establish depth.
+
+Size the schedule for this path while retaining [Module depth](#module-depth) and time for practice and assessment. Extend a default duration when needed. If explicit time limits prevent comprehensive coverage, resolve the tradeoff with the learner by agreeing to a longer path or a narrower scope, labeled accurately. Apply this default to new plans and requested scope revisions; preserve an existing course's recorded scope, completed work, and pending activity on resume.
 
 ### Module depth
 
@@ -155,7 +163,7 @@ Deliver the parts through [Lesson rhythm](#lesson-rhythm), keeping each teaching
 
 ### Curriculum presentation
 
-After new-course setup, show the complete Week → Section → Module outline: every planned week, section, and module, with module IDs, titles, and brief outcomes. Include the overall duration/workload and where projects and assessments fit. Concise formatting must still include every planned unit. If the outline needs several parts to fit the host, keep the course in planning until all parts have been presented; only then ask about starting.
+After new-course setup, show the complete Week → Section → Module outline: every planned week, section, and module, with module IDs, titles, and brief outcomes. Include the overall duration/workload, starting level and target depth, coverage boundaries, and where projects and assessments fit. Concise formatting must still include every planned unit. If the outline needs several parts to fit the host, keep the course in planning until all parts have been presented; only then ask about starting.
 
 If the learner requests full curriculum details, include each module's identifier, title, outcomes, prerequisites, concept inventory, time, and homework intent, plus assessment/project plans at their actual boundaries. Save the full plan where authorized.
 
@@ -330,4 +338,4 @@ These maintained-project rules do not block authorized private use or adaptation
 
 Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](https://www.gnu.org/licenses/agpl-3.0.html) and [the original notices](https://github.com/Techienaut/Waestro/blob/main/NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-**Modification notice — 2026-11-08:** Added substantive multi-part module planning, visible module outlines, and coverage checks before completion. Kept teaching turns small, made default module counts yield to feasible workload, and preserved existing-course work and standalone tutoring behavior.
+**Modification notice — 2026-11-08:** Made new courses default to beginner-through-comprehensive coverage with explicit subject boundaries, prerequisite progression, and practical integration. Preserved learner-selected scope, feasible workload, module depth, and existing-course continuity.
