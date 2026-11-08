@@ -37,3 +37,5 @@ These notices record previous versions. Current operating instructions are in [S
 **Modification notice — 2026-11-08:** Added substantive multi-part module planning, visible module outlines, and coverage checks before completion. Kept teaching turns small, made default module counts yield to feasible workload, and preserved existing-course work and standalone tutoring behavior.
 
 **Modification notice — 2026-11-08:** Made new courses default to beginner-through-comprehensive coverage with explicit subject boundaries, prerequisite progression, and practical integration. Preserved learner-selected scope, feasible workload, module depth, and existing-course continuity.
+
+**Modification notice — 2026-11-08:** Set the default new-course budget to 20 total study hours per week, applied without a separate weekly-hours question. Preserved learner-specified schedules, recorded course workloads, comprehensive scope, and module depth.
