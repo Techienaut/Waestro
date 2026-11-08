@@ -33,3 +33,5 @@ These notices record previous versions. Current operating instructions are in [S
 **Modification notice — 2026-11-08:** Made new-course startup follow completed setup answers, a complete Week → Section → Module curriculum outline, and a post-plan question before lessons begin. Preserved existing-course bookmarks, completed readiness gates, and the standalone tutoring rules.
 
 **Modification notice — 2026-11-08:** Co-located curriculum-presentation requirements and clarified resumption of plans awaiting approval or a start decision. Preserved setup → curriculum → start sequencing, completed readiness gates, and standalone tutoring behavior.
+
+**Modification notice — 2026-11-08:** Added substantive multi-part module planning, visible module outlines, and coverage checks before completion. Kept teaching turns small, made default module counts yield to feasible workload, and preserved existing-course work and standalone tutoring behavior.
