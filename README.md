@@ -4,11 +4,11 @@ Waestro helps an AI teach you one step at a time. It plans a course, explains sm
 
 ## Set it up
 
-1. [Download the ZIP file](https://github.com/Techienaut/Waestro/archive/refs/heads/main.zip) and unzip it. Keep its files together.
-2. If your AI app supports skills, add the whole folder as a skill. If it supports file uploads instead, attach [SKILL.md](SKILL.md), all files in `references/`, and [resume-card-template.md](resume-card-template.md).
-3. Start a chat and ask the AI to use Waestro, as shown below.
+1. Open [SKILL.md](SKILL.md) and save a copy.
+2. If your AI app accepts files, upload `SKILL.md`. Otherwise, paste its full text into the app's instructions or a new chat.
+3. Ask the AI to use Waestro, as shown below.
 
-The AI needs to read the files. If it cannot open them, paste their text when asked.
+Only `SKILL.md` is needed to load the skill. All teaching rules and the resume-card template are inside it.
 
 ## Example: learn Python
 
@@ -28,7 +28,7 @@ Before you stop, say:
 
 > Pause. Give me my course plan and a progress record, including my next task.
 
-Save or copy both. In a new chat, load Waestro the same way and share your plan and progress record. Then say:
+Save or copy both. In a new chat, load `SKILL.md` the same way and share your plan and progress record. Then say:
 
 > Continue my course from this record.
 
