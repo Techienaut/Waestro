@@ -9,3 +9,5 @@
 **Modification notice — 2026-11-07:** Reorganized the instructions around the teaching loop, disclosed conditional procedures through references, consolidated progress guidance, and clarified session records versus authorized durable saves.
 
 **Modification notice — 2026-11-07:** Made visual type, complexity, and generation effort depend on the teaching goal. Quick diagrams, tables, and other visual aids now satisfy the teaching default; detailed image generation is used when the concept benefits from it.
+
+**Modification notice — 2026-11-08:** Required a newly generated or rendered image for every lesson explanation while retaining topic-dependent complexity and generation effort. Plain text aids and unchanged reused images no longer satisfy the requirement.

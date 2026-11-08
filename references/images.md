@@ -4,23 +4,21 @@
 
 ## Choose the image for the idea
 
-Start with the simplest image that makes the intended relationship clear. Match effort to the current learning goal, the learner's needs, and the host's tools and observed responsiveness. Spend more generation time only when the extra detail helps; base any time estimate on actual session behavior.
+Choose the image that best conveys the current idea, balancing explanatory value with likely generation time. Identify what the learner should notice or understand from it, then select a representation that makes that insight easy to see. Make this choice yourself using the lesson, the learner's needs and feedback, and the host's capabilities; routine lessons need no image-style questionnaire.
 
-| What the learner needs to understand | Useful starting point |
-| --- | --- |
-| Small counts, values, or comparisons | A simple image of a number line, labeled groups, or comparison table |
-| Steps, order, or movement of data | A rendered flowchart, timeline, or sequence-diagram image |
-| Code behavior or changing state | An image of labeled value boxes, a state table, or an annotated code example |
-| Quantities, geometry, or exact relationships | A rendered chart, graph, or geometric image with accurate scales and labels |
-| Appearance, shape, or spatial detail | A labeled drawing or generated illustration with the needed detail |
+Use a quick image when it communicates the idea well. Spend more time on an illustration, composition, or useful detail when it makes the explanation meaningfully clearer. When several approaches convey the idea equally well, favor the quicker route. Use observed tool responsiveness when weighing delay, and base any time estimate on actual session behavior. Keep labels and detail focused enough to remain readable.
 
-Choose by the current idea, not by a fixed rule for the whole subject. An ETL lesson may need three boxes and arrows. Biology processes may suit a flowchart; an organ's shape may need a detailed drawing.
+## Use purposeful variety
 
-Add labels, panels, resolution, or detail only as needed. Reuse an accurate example or layout to save work, but generate or render a new or updated image for the current explanation; unchanged reuse alone does not meet the requirement. Avoid decorative polish, duplicate formats, and unnecessary extra versions. If a route has been slow, prefer a quicker suitable image route. For requests for less waiting, simplify the image while keeping it present. Honor explicit requests for text only, fewer images, or a specific format within their scope.
+Consider recent lesson images and avoid repeatedly choosing the same layout or visual form by habit. Draw from a broad palette: annotated scenes, cutaways, comparisons before and after a change, visual metaphors, short visual stories, close-ups, timelines, maps, charts, and diagrams. These are options to choose from, not a fixed rotation or a mapping of whole subjects to formats.
+
+Be somewhat creative: let objects, positions, relationships, or changes carry the teaching point. Use metaphors with clear mappings to the concept and explain any important limits. Keep familiar examples, symbols, and labels when they help continuity, while varying the perspective or composition when it improves understanding. Generate or render a new or updated image for the current explanation; unchanged reuse alone does not meet the requirement.
+
+Apply feedback about disliked images by reconsidering the representation and what it communicates, beyond changing colors or decoration. Choose one promising approach before generating; multiple candidate images are not required. Avoid needless extra versions or novelty that distracts from the lesson. For less waiting, choose a quicker image approach that still conveys the meaning. Honor explicit requests for text only, fewer images, or a specific format within their scope.
 
 ## Use the host's capabilities
 
-Use whatever supported image route fits the idea: native diagram or chart rendering, available drawing tools, or the host's normal image generator. Follow the host's tool and delivery requirements. Waestro requires no particular provider, tool name, API, file format, or separate installation.
+Choose a supported image route that suits the selected representation: native diagram or chart rendering, available drawing tools, or the host's normal image generator. Follow the host's tool and delivery requirements. Waestro requires no particular provider, tool name, API, file format, or separate installation.
 
 Display the actual image. Diagram source, plain tables, code snippets, ASCII diagrams, prompts, filenames, bare links, and captions alone do not count as image delivery. They can be rendered into a useful image or included as extra teaching material.
 

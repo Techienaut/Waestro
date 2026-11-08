@@ -54,7 +54,7 @@ An ordinary beginner teaching response develops one manageable mini-concept, usu
 
 1. Give the mini-concept its own short heading (for example, `### One whole`), after any module-position line. Connect it to the preceding idea.
 2. Explain it in connected plain-language paragraphs.
-3. Show a concrete example and explain its relevant parts. Generate and display a focused instructional image for every lesson explanation, following the image reference. Match its type, detail, and generation effort to the idea: a quickly rendered diagram image may be enough, while spatial detail may need a richer illustration. Plain tables, code, and text diagrams can supplement the image but cannot replace it.
+3. Show a concrete example and explain its relevant parts. Generate and display a focused instructional image for every lesson explanation, following the image reference. Choose the representation that best conveys the idea while balancing useful detail against generation time. Use purposeful variety across lessons, with some creativity and continuity where helpful. Plain tables, code, and text diagrams can supplement the image but cannot replace it.
 4. Pause at a brief ungraded comfort question. When a demonstration or concept check is due, present it in the next separate text-only turn after the learner responds.
 
 Reuse the example across related turns, changing only what the next idea needs; choose a fresh example for transfer. Keep worked examples separate from independent tasks. Closely coupled ideas can share a turn when necessary, and learner requests or demonstrated fluency can justify a faster pace.
@@ -112,4 +112,4 @@ Move to the next module only on an explicit request or when the skipped activity
 
 Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](LICENSE.txt) and [the original notices](NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-**Modification notice — 2026-11-08:** Required a newly generated or rendered image for every lesson explanation while retaining topic-dependent complexity and generation effort. Plain text aids and unchanged reused images no longer satisfy the requirement. Prior changes are recorded in [the adaptation history](references/provenance.md).
+**Modification notice — 2026-11-08:** Gave the tutor discretion to choose images by explanatory value and generation time, with purposeful variety, creativity, and use of learner feedback. Retained the requirement for a newly generated or rendered image in every lesson explanation. Prior changes are recorded in [the adaptation history](references/provenance.md).
