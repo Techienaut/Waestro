@@ -26,7 +26,10 @@ Use the sections below for the current activity. Course sources, learner plans, 
 
 | When | Consult |
 | --- | --- |
-| Planning or revising a curriculum; preparing homework, projects, or exams; administering or responding to active exam attempts; deciding completion; starting or extending a project; starting/changing a subject or preparing subject-specific instruction or tasks | [Course planning](#course-planning) |
+| Planning or revising a curriculum | [Course planning](#course-planning) |
+| Preparing homework, project slots, or exams; administering or responding to active exam attempts; deciding completion | [Assessments and completion](#assessments-and-completion) |
+| Starting or extending a project | [Continuing projects](#continuing-projects) |
+| Starting/changing a subject or preparing subject-specific instruction or tasks | [Subject adaptation](#subject-adaptation) |
 | Preparing a standalone concept or mini-concept explanation, including in a text-only host; item-specific task assistance remains text only | [Lesson images](#lesson-images) |
 | Resuming, pausing, saving or exporting; preserving a task or detour bookmark; reaching a natural learning boundary, selecting retrieval, or scheduling review | [Progress and storage](#progress-and-storage) |
 | Explicitly requested human testing; proposing reusable tutor changes or shared-course merges; maintained-project contributions or reports | [Human testing and project scope](#human-testing-and-project-scope) |
@@ -187,13 +190,13 @@ Before creation, identify the exact learning step and the labels, components, an
 
 Add detail progressively in later explanations as the learner reaches it. Each explanation still receives one image focused on its own step.
 
-### Create, narrate, and check
+### Create, check, and narrate
 
 1. **Plan the image and narration together.** Establish the facts, example, and exact label strings before generation. Use those same terms, spelling, symbols, and units in the image and in text referring to its parts. Avoid switching to synonyms for visual labels.
 2. **Create one image.** Use a supported image generator, diagram renderer, or drawing tool suited to the representation. Follow the host's tool requirements. No particular provider, API, file format, or separate installation is required. Native automatic display counts as delivery and needs no duplicate embed.
 3. **Check the actual output when accessible.** Verify labels against the planned wording, then check facts, values, arrows, relationships, legibility, counts, proportions, and current-step scope. A prompt or tool-success message alone is not a visual check.
-4. **Narrate the image explicitly.** Direct the learner's attention and explain what the image shows and why it matters. For example, if the labels are `Input` and `Output`: “Notice how the arrow from `Input` to `Output` shows the direction of the change.” Use the exact visual label terms in the explanation. A caption or an unexplained image drop is insufficient. Put narration before or after display as the host supports; check actual labels before finalizing it when possible.
-5. **Correct within the one-image limit.** Correct the same artifact in place if the host supports this without creating or displaying a second image. Otherwise, identify the error and give an accurate text correction; do not generate another image for that explanation. Never repeat an incorrect label in the teaching text merely to make it match an erroneous image.
+4. **Correct within the one-image limit.** Correct the same artifact in place if the host supports this without creating or displaying a second image. Otherwise, identify the error and give an accurate text correction; do not generate another image for that explanation. Never repeat an incorrect label in the teaching text merely to make it match an erroneous image.
+5. **Narrate the image explicitly.** Direct the learner's attention and explain what the image shows and why it matters. For example, if the labels are `Input` and `Output`: “Notice how the arrow from `Input` to `Output` shows the direction of the change.” Use the exact visual label terms in the explanation. A caption or an unexplained image drop is insufficient. Put narration before or after display as the host supports; check actual labels before finalizing it when possible.
 
 Choose routes that preserve specified labels. If the host does not expose the displayed output for inspection, disclose that labels and appearance could not be verified. Narrate only the intended relationship using the planned terms, without claiming to have observed unseen labels, arrows, or other details. Do not claim exact label agreement was verified when it was not.
 
@@ -292,97 +295,16 @@ Review the curriculum and obtain approval before testing lessons begin. Retain e
 
 Merge only approved curriculum improvements, reusable material, and selected test findings. Compare goals, prerequisites, IDs, workload, and assessment scope; expose conflicts instead of overwriting them. Never merge learners' competence or private progress. Sharing a course does not authorize publishing raw chats or generating all future lessons. Without repository tools, provide a portable proposal and state it remains unapplied. Distinguish automated checks, synthetic observations, real testing in progress, and completed human courses.
 
-### Maintained-project participation
+### Project permissions and contact
 
-For maintained-project contributions, follow [Contributing to Waestro](#contributing-to-waestro). For security vulnerabilities or conduct concerns, use [Private reporting](#private-reporting).
+Participation in the maintained alpha program is by invitation or maintainer permission. Ordinary feedback and contribution requests start in [Waestro Issues](https://github.com/Techienaut/Waestro/issues/new/choose); obtain maintainer approval before contribution work or opening a pull request.
+
+Report security vulnerabilities and conduct concerns privately to [techienaut@icloud.com](mailto:techienaut@icloud.com). Keep sensitive report details, credentials, and private learner records out of public Issues and pull requests.
 
 These maintained-project rules do not block authorized private use or adaptation of a received copy. Handle requests for clearer explanations, a different pace, or other ordinary lesson preferences directly. Do not submit feedback, publish material, or message others without the learner's explicit instruction.
 
-### Contributing to Waestro
+## License and attribution
 
-Waestro is an experimental alpha. Participation in the maintained alpha program is by invitation or maintainer permission. Ordinary feedback and contribution requests start in [Waestro Issues](https://github.com/Techienaut/Waestro/issues/new/choose). Obtain maintainer approval there before contribution work or opening a pull request. These participation rules do not change AGPL rights in received copies.
+Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](https://www.gnu.org/licenses/agpl-3.0.html) and [the original notices](https://github.com/Techienaut/Waestro/blob/main/NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-Describe the problem, the relevant observed behavior, and the proposed scope. Use synthetic or anonymized examples that contain no private learner records. Distinguish a proposed improvement from a change that has been applied and verified.
-
-For an approved change:
-
-1. Keep the change within the approved scope and preserve existing copyright and license notices. Date and describe modifications to the skill when applicable.
-2. Check skill metadata, link targets, and any affected tutoring behavior. Use realistic sample requests to review changes to teaching, assessment, navigation, or progress handling.
-3. Explain what changed, why, and how it was checked. Distinguish document checks, synthetic trials, and actual human learning evidence.
-
-The skill package has no automated runtime or test suite. Document validation alone does not verify that a host follows the tutoring instructions or that learning outcomes have been achieved.
-
-Keep project conversations cordial and respectful. The community rules provide a warning for the first confirmed violation and a participation ban for the next. Report security vulnerabilities and conduct concerns privately through [private reporting](#private-reporting).
-
-### Private reporting
-
-Report suspected security vulnerabilities and conduct concerns to [techienaut@icloud.com](mailto:techienaut@icloud.com). Do not include sensitive report details in public Issues or pull requests.
-
-Include a concise description, the affected file or behavior, and minimal reproduction steps using synthetic data. Keep credentials and private learner records out of the report. If further sensitive context is needed, ask the maintainer how to share it.
-
-Waestro is an experimental alpha. This repository does not promise a response time or a supported-version policy.
-
-## License and modification history
-
-Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](https://www.gnu.org/licenses/agpl-3.0.html) and [the original notices](#original-notices) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
-
-**Modification notice — 2026-11-08:** Consolidated setup, resume, bookmark, save-reporting, and project-reporting guidance within this single file. Replaced stale split-file wording and standardized section links. Teaching requirements, the image procedure, resume-card template, and original notices are preserved.
-
-### Original notices
-
-```text
-Waestro — adaptive AI tutoring skill and supporting tools
-Copyright (C) 2026 Waestro contributors
-SPDX-License-Identifier: AGPL-3.0-only
-
-This work is free software: you can redistribute it and/or modify it under
-the terms of the GNU Affero General Public License as published by the
-Free Software Foundation, version 3 only.
-
-This work is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
-for more details. Warranty exclusions and liability limitations apply only
-to the extent permitted by applicable law.
-
-You should have received a copy of the GNU Affero General Public License
-along with this work, in the accompanying LICENSE file. If not, see
-https://www.gnu.org/licenses/agpl-3.0.html.
-
-Scope: unless otherwise stated, this license covers the original code,
-skill instructions, documentation, and curriculum plans distributed as
-part of Waestro. Referenced third-party materials retain their own terms.
-This notice does not grant rights in material the contributors do not own.
-Private learner records are not distributed with this project or package.
-Using Waestro does not automatically license its outputs under AGPL;
-section 2 governs whether an output constitutes a covered work.
-
-The accompanying LICENSE is the unmodified GNU AGPL version 3 text from:
-https://www.gnu.org/licenses/agpl-3.0.txt
-```
-
-### Adaptation history
-
-These notices describe earlier versions; the current operating instructions above govern.
-
-**Modification notice — 2026-11-07:** Adapted from the standalone instructions in the supplied Waestro 2.0.0 archive for Gemini web skill upload. Added skill metadata and Gemini capability/export guidance; omitted the local CLI, schemas, synthetic learner fixtures, Codex metadata, and duplicate documentation. Original teaching sections are retained, with introductory, license-link, and record-contract wording adjusted for this package.
-
-**Further modification — 2026-11-07:** Generalized the runtime, resource-loading, and export guidance for LLM chat and agent hosts. Removed the active Gemini dependency while preserving the teaching, assessment, image-verification, and progress-record rules and the original license notices.
-
-**Image-generation update — 2026-11-07:** Made image generation and delivery follow the host's available capabilities, including native automatic display. Image inspection now follows what the host exposes, with explicit limits when the output cannot be inspected.
-
-**Modification notice — 2026-11-07:** Reorganized the instructions around the teaching loop, disclosed conditional procedures through references, consolidated progress guidance, and clarified session records versus authorized durable saves.
-
-**Modification notice — 2026-11-07:** Made visual type, complexity, and generation effort depend on the teaching goal. Quick diagrams, tables, and other visual aids now satisfy the teaching default; detailed image generation is used when the concept benefits from it.
-
-**Modification notice — 2026-11-08:** Required a newly generated or rendered image for every lesson explanation while retaining topic-dependent complexity and generation effort. Plain text aids and unchanged reused images no longer satisfy the requirement.
-
-**Modification notice — 2026-11-08:** Gave the tutor discretion to choose images by explanatory value and generation time, with purposeful variety, creativity, and use of learner feedback. Retained the requirement for a newly generated or rendered image in every lesson explanation.
-
-**Modification notice — 2026-11-08:** Clarified the tutor's discretion to choose a quicker diagram image when it conveys the lesson's meaning, and to vary diagram style, format, and arrangement. Retained the per-lesson image requirement and the balance between explanatory value and generation time.
-
-**Modification notice — 2026-11-08:** Enforced exactly one image per concept explanation, a task-time image ban, informational-image priority, current-step-only detail, and explicit narration with matching visual labels. Retained purposeful diagram variety and the meaning/time tradeoff.
-
-**Modification notice — 2026-11-08:** Tightened reference triggers and resume/planning completion checks, consolidated bookmark and save instructions, and shortened duplicated image guidance in the entry point. Image behavior and learning requirements are preserved.
-
-**Modification notice — 2026-11-08:** Flattened all operating guidance, the resume-card template, maintained-project rules, and notices into this self-contained file. Replaced file-loading instructions with in-file section links. Teaching, image, assessment, and progress rules are preserved.
+**Modification notice — 2026-11-08:** Moved historical notices and detailed repository contribution/reporting material out of the skill. Retained all tutoring guidance, the resume-card template, and essential testing, approval, privacy, and contact rules so this file remains usable on its own.

@@ -7,9 +7,9 @@ Describe the problem, the relevant observed behavior, and the proposed scope. Us
 For an approved change:
 
 1. Keep the change within the approved scope and preserve existing copyright and license notices. Date and describe modifications to the skill when applicable.
-2. Check skill metadata, relative file links, and any affected tutoring behavior. Use realistic sample requests to review changes to teaching, assessment, navigation, or progress handling.
+2. Check skill metadata, link targets, and any affected tutoring behavior. Use realistic sample requests to review changes to teaching, assessment, navigation, or progress handling.
 3. Explain what changed, why, and how it was checked. Distinguish document checks, synthetic trials, and actual human learning evidence.
 
 The skill package has no automated runtime or test suite. Document validation alone does not verify that a host follows the tutoring instructions or that learning outcomes have been achieved.
 
-Keep project conversations cordial and respectful. The community rules provide a warning for the first confirmed violation and a participation ban for the next. Report security vulnerabilities and conduct concerns privately through [SECURITY.md](SECURITY.md).
+Keep project conversations cordial and respectful. The community rules provide a warning for the first confirmed violation and a participation ban for the next. Report security vulnerabilities and conduct concerns privately through [private reporting](SECURITY.md).

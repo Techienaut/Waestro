@@ -34,6 +34,6 @@ Save or copy both. In a new chat, load `SKILL.md` the same way and share your pl
 
 Waestro is still being tested. What it can do depends on your AI app.
 
-[Help improve Waestro](CONTRIBUTING.md) · [Report a security issue](SECURITY.md)
+[Help improve Waestro](CONTRIBUTING.md) · [Report a security issue](SECURITY.md) · [History](HISTORY.md)
 
 License: [AGPL-3.0-only](LICENSE.txt). See [notices](NOTICE.txt).
