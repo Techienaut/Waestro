@@ -11,3 +11,5 @@
 **Modification notice — 2026-11-07:** Made visual type, complexity, and generation effort depend on the teaching goal. Quick diagrams, tables, and other visual aids now satisfy the teaching default; detailed image generation is used when the concept benefits from it.
 
 **Modification notice — 2026-11-08:** Required a newly generated or rendered image for every lesson explanation while retaining topic-dependent complexity and generation effort. Plain text aids and unchanged reused images no longer satisfy the requirement.
+
+**Modification notice — 2026-11-08:** Gave the tutor discretion to choose images by explanatory value and generation time, with purposeful variety, creativity, and use of learner feedback. Retained the requirement for a newly generated or rendered image in every lesson explanation.

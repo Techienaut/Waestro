@@ -8,9 +8,19 @@ Choose the image that best conveys the current idea, balancing explanatory value
 
 Use a quick image when it communicates the idea well. Spend more time on an illustration, composition, or useful detail when it makes the explanation meaningfully clearer. When several approaches convey the idea equally well, favor the quicker route. Use observed tool responsiveness when weighing delay, and base any time estimate on actual session behavior. Keep labels and detail focused enough to remain readable.
 
+Decide for yourself when a generated or rendered diagram image is enough. Use it when it conveys the lesson's key meaning accurately and clearly, and richer imagery would add little understanding. Choose a more detailed image when it explains something the diagram would miss. Favor a quicker diagram route when the host's tools support that advantage; the choice follows the current idea rather than a fixed rule for the subject.
+
 ## Use purposeful variety
 
 Consider recent lesson images and avoid repeatedly choosing the same layout or visual form by habit. Draw from a broad palette: annotated scenes, cutaways, comparisons before and after a change, visual metaphors, short visual stories, close-ups, timelines, maps, charts, and diagrams. These are options to choose from, not a fixed rotation or a mapping of whole subjects to formats.
+
+Vary diagrams themselves in ways that suit the lesson:
+
+- **Style:** consider a clean technical drawing, a sketch, an illustrated schematic, or a textbook-style figure.
+- **Format:** consider a flow, cycle, hierarchy, timeline, comparison, layered view, or annotated spatial map.
+- **Arrangement:** consider side-by-side panels, vertical stages, radial groups, nested parts, an inset close-up, or another clear composition.
+
+Use these choices to emphasize the idea rather than repeatedly relabeling the same boxes-and-arrows template. A change of colors alone does not address repetitive structure.
 
 Be somewhat creative: let objects, positions, relationships, or changes carry the teaching point. Use metaphors with clear mappings to the concept and explain any important limits. Keep familiar examples, symbols, and labels when they help continuity, while varying the perspective or composition when it improves understanding. Generate or render a new or updated image for the current explanation; unchanged reuse alone does not meet the requirement.
 
