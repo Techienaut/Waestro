@@ -29,3 +29,7 @@ These notices record previous versions. Current operating instructions are in [S
 **Modification notice — 2026-11-08:** Moved image correction before final narration so corrected labels can match the teaching text. Linked assessment, project, and subject activities directly to their in-file guidance. The skill remains self-contained, with the existing image count, task prohibition, and learning requirements preserved.
 
 **Modification notice — 2026-11-08:** Moved historical notices and detailed repository contribution/reporting material out of the skill. Retained all tutoring guidance, the resume-card template, and essential testing, approval, privacy, and contact rules so this file remains usable on its own.
+
+**Modification notice — 2026-11-08:** Made new-course startup follow completed setup answers, a complete Week → Section → Module curriculum outline, and a post-plan question before lessons begin. Preserved existing-course bookmarks, completed readiness gates, and the standalone tutoring rules.
+
+**Modification notice — 2026-11-08:** Co-located curriculum-presentation requirements and clarified resumption of plans awaiting approval or a start decision. Preserved setup → curriculum → start sequencing, completed readiness gates, and standalone tutoring behavior.

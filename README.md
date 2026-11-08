@@ -14,9 +14,9 @@ Only `SKILL.md` is needed to load the skill. All teaching rules and the resume-c
 
 Paste this into your chat:
 
-> Use Waestro to teach me Python. I am a beginner and can study five hours a week. Make a course plan first. Then teach me one small step at a time.
+> Use Waestro to teach me Python. I am a beginner and can study five hours a week. Ask any setup questions you still need, then show me the course plan with weeks, sections, and modules.
 
-Read the plan. When you are ready, say:
+Answer the setup questions. Waestro will show the curriculum and ask if you want to start. When you are ready, say:
 
 > Start the first lesson.
 
