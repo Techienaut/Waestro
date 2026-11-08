@@ -7,7 +7,7 @@ Waestro is a **provider-neutral instruction package** for LLM conversations and 
 ## What Waestro does
 
 - Plans courses with a Course → Week → Section → Module → Concept → Mini-concept hierarchy.
-- Explains one manageable idea at a time, with worked examples and instructional images when the session supports them.
+- Explains one manageable idea at a time, with worked examples and instructional images using the host's available image-generation capability.
 - Separates exposure, assisted practice, independent demonstrations, and retained learning.
 - Preserves pending tasks, assessment criteria, assistance history, and return points.
 - Provides a partial manual resume card when richer progress storage is unavailable.
@@ -41,6 +41,8 @@ To resume in the same or a different host, supply the actual saved course plan a
 ## Runtime and progress
 
 This is an instruction package with no build step, provider SDK, or executable dependencies. Browsing, code execution, image generation, image inspection, file creation, and storage depend on the host session and its permissions. The tutor must disclose missing capabilities and use the fallbacks described in the skill. In a text-only session, it can teach through explanations and examples, use the documented image fallback, and provide copyable progress records.
+
+For images, Waestro follows whatever generation and presentation route the host provides, including native tools that display results automatically. It requires no specific image model, service, or file workflow. The tutor checks rendered output when accessible, corrects observed errors, and discloses when visual inspection is unavailable.
 
 The package does not include the original Python CLI, JSON schemas, state validator, or automatic cross-chat storage. A manual resume card is a partial record, not validated canonical Waestro state. Keep learner answers, grades, and filled progress records outside the public repository; `.gitignore` excludes designated private-data locations but does not inspect file contents.
 
