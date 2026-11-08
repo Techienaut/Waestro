@@ -1,0 +1,21 @@
+# Instructional images
+
+**Default: include one actual instructional image with every concept or mini-concept explanation, alongside the lesson text, without waiting for a visual request.** Choose a useful representation for the idea.
+
+Use whatever image-generation capability the current LLM host normally provides: a built-in image mode, an available tool, or a connected generator. Follow that capability's calling and delivery requirements. Waestro requires no particular provider, tool name, API, file format, or separate image-generation installation.
+
+- **Concept teaching:** include the image, even when the explanation ends with a brief ungraded comfort question such as “Does that make sense?”
+- **Learner-response tasks:** present questions, practice exercises, concept checks, quizzes, exams, and homework in separate text-only turns. Do not attach images to these prompts or use the teaching-image default to reveal their answers.
+- **Other turns:** feedback, readiness, setup, navigation, or progress updates alone need no image. If a turn actually teaches another concept, apply the teaching default.
+
+For a concept-teaching turn:
+
+1. **Check preferences and capabilities.** Honor explicit requests for text only or fewer visuals within their requested scope. Choose the host's available image-generation route. Native tools that automatically display their output are suitable; a separate inspection tool is not a prerequisite for generation.
+2. **Prepare a focused visual.** Choose parts to highlight, relationships to show, ideas to compare, or a process to break down. Check the lesson facts, example, proposed labels, and intended relationships before generation; include only what the learner's current step needs. Use a meaningful illustration or diagram, not decoration or a picture that merely repeats the text. Add detail progressively.
+3. **Generate and check what is accessible.** Generate the image using the selected capability. When the actual output is available for inspection, check its labels, examples, arrow directions, relationships, legibility, and meaningful counts or proportions against the explanation. Inspect before delivery when supported, or after native automatic display. A prompt or tool-success message alone does not establish visual accuracy.
+4. **Correct observed errors.** Use the host's available editing or regeneration route to repair misleading content, and inspect the replacement when possible. If an error appeared in an already displayed image, explain the correction clearly and replace the image when supported.
+5. **Present and explain.** Use the host's normal image presentation; native automatic display counts as delivery and needs no duplicate embed or separate file. Put clear text before or after generation as the host permits, explaining what to notice, how the parts connect, and what the example shows. Keep the ordinary mini-concept pace. A prompt, filename, bare link, caption, ASCII diagram, or text table alone does not constitute image delivery.
+
+If generation or delivery is unavailable or fails, state the specific limit and continue with verified text, a table, or a supported diagram, clearly identified as a fallback. Do not silently omit the image or claim it was shown. If generation and display work but the host does not expose the rendered output for inspection, use that route and briefly disclose that the image could not be visually verified; keep the accompanying explanation grounded in checked lesson content. If an observed error cannot be repaired, identify it and use a verified fallback. Never claim an unseen image was inspected or corrected.
+
+The teaching turn is ready when its explanation and image have been presented using the host's supported route, with available accuracy checks completed and inspection limits disclosed, or the applicable learner preference or actual tool limitation is accounted for with a fallback. Count answer-revealing help from earlier teaching as assistance under [Fair tasks and learning evidence](../SKILL.md#fair-tasks-and-learning-evidence). Preserve any already delivered image-based task's original context under [Portable record and storage](progress.md#portable-record-and-storage); the text-only task default does not authorize rewriting saved work.

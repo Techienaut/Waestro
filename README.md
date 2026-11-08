@@ -14,23 +14,33 @@ Waestro is a **provider-neutral instruction package** for LLM conversations and 
 
 ## Use the skill
 
-The skill package consists of these four files, kept together in one folder:
+Keep the complete skill folder together so its conditional references and project guidance remain accessible:
 
 ```text
 waestro/
 ├── SKILL.md
+├── references/
+│   ├── course-planning.md
+│   ├── images.md
+│   ├── progress.md
+│   ├── human-testing.md
+│   └── provenance.md
+├── resume-card-template.md
+├── CONTRIBUTING.md
+├── SECURITY.md
 ├── LICENSE.txt
-├── NOTICE.txt
-└── resume-card-template.md
+└── NOTICE.txt
 ```
 
 [SKILL.md](SKILL.md) is the instruction entry point. Choose the route supported by your host:
 
 - **Native skills:** register the folder through the host's supported skill-loading mechanism.
-- **File or attachment context:** provide `SKILL.md` and make the supporting files accessible, then explicitly ask the assistant to apply Waestro.
-- **Text input:** supply the Markdown instructions through the host's supported instruction or prompt input. Provide the resume-card template when a partial progress export is needed.
+- **File or attachment context:** provide `SKILL.md` and make the referenced files accessible, then explicitly ask the assistant to apply Waestro.
+- **Text input:** supply `SKILL.md` through the host's supported instruction or prompt input, together with the reference text needed for the active task. File links alone do not supply their contents. Provide the resume-card template when a partial progress export is needed.
 
 The YAML frontmatter identifies the skill for hosts that support it; the Markdown body contains the tutoring instructions. This repository supplies no provider-specific integration or installer. When redistributing the package, retain its license and notices.
+
+`SKILL.md` keeps the teaching loop, evidence rules, and navigation safeguards in the entry point. Its routing table identifies when the tutor must read planning, image, progress, or human-testing procedures. References already available in the current context can be reused.
 
 Once the skill is loaded, a learner can make a request such as:
 
@@ -51,6 +61,11 @@ The package does not include the original Python CLI, JSON schemas, state valida
 | File | Purpose |
 | --- | --- |
 | [SKILL.md](SKILL.md) | Provider-neutral tutoring instructions and skill metadata |
+| [references/course-planning.md](references/course-planning.md) | Curriculum, boundary assessments, projects, and subject adaptation |
+| [references/images.md](references/images.md) | Host-native image generation, presentation, and accuracy checks |
+| [references/progress.md](references/progress.md) | Resumption, bookmarks, storage, exports, and review scheduling |
+| [references/human-testing.md](references/human-testing.md) | Explicit testing and maintained-project scope |
+| [references/provenance.md](references/provenance.md) | Original adaptation notices |
 | [resume-card-template.md](resume-card-template.md) | Blank partial progress-export template |
 | [LICENSE.txt](LICENSE.txt) | Full GNU AGPL version 3 license text |
 | [NOTICE.txt](NOTICE.txt) | Copyright, scope, and original notices |
@@ -66,4 +81,4 @@ Ordinary project feedback starts in [Waestro Issues](https://github.com/Techiena
 
 Distributed under **AGPL-3.0-only**. See [LICENSE.txt](LICENSE.txt) and [NOTICE.txt](NOTICE.txt). Referenced third-party materials retain their own terms. The original notice explains the distinction between covered project material and learner outputs.
 
-The supplied package's adaptation history is retained in `SKILL.md`, along with a dated notice describing its generalization for LLM hosts. The license, original notices, and blank resume-card template are unchanged.
+Prior adaptation notices are retained verbatim in [the adaptation history](references/provenance.md). `SKILL.md` carries the current reorganization notice. The license, original notices, and blank resume-card template are unchanged.
