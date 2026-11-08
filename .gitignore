@@ -1,0 +1,17 @@
+# macOS metadata
+.DS_Store
+__MACOSX/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Private learner records; keep the blank resume-card template tracked.
+/.local/
+/learner-data/
+/private/
+*.resume.md
+
+# Local distribution archives
+*.zip

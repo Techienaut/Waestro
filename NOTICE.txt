@@ -1,0 +1,28 @@
+Waestro — adaptive AI tutoring skill and supporting tools
+Copyright (C) 2026 Waestro contributors
+SPDX-License-Identifier: AGPL-3.0-only
+
+This work is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the
+Free Software Foundation, version 3 only.
+
+This work is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+for more details. Warranty exclusions and liability limitations apply only
+to the extent permitted by applicable law.
+
+You should have received a copy of the GNU Affero General Public License
+along with this work, in the accompanying LICENSE file. If not, see
+https://www.gnu.org/licenses/agpl-3.0.html.
+
+Scope: unless otherwise stated, this license covers the original code,
+skill instructions, documentation, and curriculum plans distributed as
+part of Waestro. Referenced third-party materials retain their own terms.
+This notice does not grant rights in material the contributors do not own.
+Private learner records are not distributed with this project or package.
+Using Waestro does not automatically license its outputs under AGPL;
+section 2 governs whether an output constitutes a covered work.
+
+The accompanying LICENSE is the unmodified GNU AGPL version 3 text from:
+https://www.gnu.org/licenses/agpl-3.0.txt
