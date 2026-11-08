@@ -5,3 +5,5 @@
 **Further modification — 2026-11-07:** Generalized the runtime, resource-loading, and export guidance for LLM chat and agent hosts. Removed the active Gemini dependency while preserving the teaching, assessment, image-verification, and progress-record rules and the original license notices.
 
 **Image-generation update — 2026-11-07:** Made image generation and delivery follow the host's available capabilities, including native automatic display. Image inspection now follows what the host exposes, with explicit limits when the output cannot be inspected.
+
+**Modification notice — 2026-11-07:** Reorganized the instructions around the teaching loop, disclosed conditional procedures through references, consolidated progress guidance, and clarified session records versus authorized durable saves.

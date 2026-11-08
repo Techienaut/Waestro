@@ -1,21 +1,41 @@
-# Instructional images
+# Visual aids
 
-**Default: include one actual instructional image with every concept or mini-concept explanation, alongside the lesson text, without waiting for a visual request.** Choose a useful representation for the idea.
+**Default: support each concept or mini-concept explanation with a focused visual aid. Choose its form, detail, and generation effort to fit what is being taught.** A quick diagram, table, or annotated example can fully meet this default; a generated image is one option.
 
-Use whatever image-generation capability the current LLM host normally provides: a built-in image mode, an available tool, or a connected generator. Follow that capability's calling and delivery requirements. Waestro requires no particular provider, tool name, API, file format, or separate image-generation installation.
+## Choose the aid for the idea
 
-- **Concept teaching:** include the image, even when the explanation ends with a brief ungraded comfort question such as “Does that make sense?”
-- **Learner-response tasks:** present questions, practice exercises, concept checks, quizzes, exams, and homework in separate text-only turns. Do not attach images to these prompts or use the teaching-image default to reveal their answers.
-- **Other turns:** feedback, readiness, setup, navigation, or progress updates alone need no image. If a turn actually teaches another concept, apply the teaching default.
+Start with the simplest aid that makes the intended relationship clear. Match effort to the current learning goal, the learner's needs, and the host's tools and observed responsiveness. Spend more generation time only when the extra detail helps; base any time estimate on actual session behavior.
 
-For a concept-teaching turn:
+| What the learner needs to understand | Useful starting point |
+| --- | --- |
+| Small counts, values, or comparisons | A compact table, number line, or labeled groups |
+| Steps, order, or movement of data | A simple flowchart, timeline, or sequence diagram |
+| Code behavior or changing state | An annotated code example with a small state table or labeled boxes |
+| Quantities, geometry, or exact relationships | A chart, graph, or geometric diagram with accurate scales and labels |
+| Appearance, shape, or spatial detail | A labeled drawing or illustration; use image generation when the needed detail benefits from it |
 
-1. **Check preferences and capabilities.** Honor explicit requests for text only or fewer visuals within their requested scope. Choose the host's available image-generation route. Native tools that automatically display their output are suitable; a separate inspection tool is not a prerequisite for generation.
-2. **Prepare a focused visual.** Choose parts to highlight, relationships to show, ideas to compare, or a process to break down. Check the lesson facts, example, proposed labels, and intended relationships before generation; include only what the learner's current step needs. Use a meaningful illustration or diagram, not decoration or a picture that merely repeats the text. Add detail progressively.
-3. **Generate and check what is accessible.** Generate the image using the selected capability. When the actual output is available for inspection, check its labels, examples, arrow directions, relationships, legibility, and meaningful counts or proportions against the explanation. Inspect before delivery when supported, or after native automatic display. A prompt or tool-success message alone does not establish visual accuracy.
-4. **Correct observed errors.** Use the host's available editing or regeneration route to repair misleading content, and inspect the replacement when possible. If an error appeared in an already displayed image, explain the correction clearly and replace the image when supported.
-5. **Present and explain.** Use the host's normal image presentation; native automatic display counts as delivery and needs no duplicate embed or separate file. Put clear text before or after generation as the host permits, explaining what to notice, how the parts connect, and what the example shows. Keep the ordinary mini-concept pace. A prompt, filename, bare link, caption, ASCII diagram, or text table alone does not constitute image delivery.
+Choose by the current idea, not by a fixed rule for the whole subject. An ETL lesson may need three boxes and arrows. Biology processes may suit a flowchart; an organ's shape may need a detailed drawing.
 
-If generation or delivery is unavailable or fails, state the specific limit and continue with verified text, a table, or a supported diagram, clearly identified as a fallback. Do not silently omit the image or claim it was shown. If generation and display work but the host does not expose the rendered output for inspection, use that route and briefly disclose that the image could not be visually verified; keep the accompanying explanation grounded in checked lesson content. If an observed error cannot be repaired, identify it and use a verified fallback. Never claim an unseen image was inspected or corrected.
+Add labels, panels, resolution, or detail only as needed. Reuse or lightly update an accurate earlier aid when it fits the current step. Avoid decorative polish, duplicate formats, and repeated generation with little teaching value. If a route has been slow, prefer a quicker suitable route for the next aid. Honor requests for a specific format, fewer visuals, text only, or less waiting within their scope.
 
-The teaching turn is ready when its explanation and image have been presented using the host's supported route, with available accuracy checks completed and inspection limits disclosed, or the applicable learner preference or actual tool limitation is accounted for with a fallback. Count answer-revealing help from earlier teaching as assistance under [Fair tasks and learning evidence](../SKILL.md#fair-tasks-and-learning-evidence). Preserve any already delivered image-based task's original context under [Portable record and storage](progress.md#portable-record-and-storage); the text-only task default does not authorize rewriting saved work.
+## Use the host's capabilities
+
+Use whatever supported route fits the chosen aid: native diagram or chart rendering, a table or inline layout, available drawing tools, or the host's normal image generator. Follow the host's tool and delivery requirements. Waestro requires no particular provider, tool name, API, file format, or separate installation.
+
+Tables, annotated code, labeled arrows, and simple text diagrams are valid aids. Use rendered diagrams when supported and useful. Distinguish diagram source from a rendered diagram; a prompt, filename, bare link, or caption alone is not a delivered aid.
+
+- **Concept teaching:** apply this choice even when the explanation ends with an ungraded comfort question.
+- **Learner-response tasks:** keep questions, practice exercises, checks, quizzes, exams, and homework in separate text-only turns. Keep answer-revealing aids in teaching turns, separate from independent tasks.
+- **Other turns:** feedback, readiness, setup, navigation, or progress updates alone need no visual. If the turn teaches another concept, apply the teaching default.
+
+## Create, check, and present
+
+1. **Prepare accurate content.** Check the lesson facts, example, labels, and intended relationships before creating the aid.
+2. **Create through the suitable route.** Present the aid directly or use an available renderer or image generator. Native automatic display is suitable; a separate inspection tool is not a prerequisite. Include no extra image solely to satisfy the visual default.
+3. **Check what is accessible.** Check the actual aid's labels, values, relationships, arrows, legibility, and meaningful counts or proportions. Inspect rendered output before or after display as supported. A prompt or tool-success message alone does not establish visual accuracy.
+4. **Correct meaningful errors.** Repair misleading content; a simpler accurate replacement is suitable. Explain corrections to already shown errors and replace the aid when supported. If repair fails, identify the error and use a verified alternative.
+5. **Explain the aid.** Use the host's normal presentation; native automatic display counts as delivery and needs no duplicate embed or separate file. Put the explanation before or after creation as supported, showing what to notice and how it connects to the concept. Keep the ordinary mini-concept pace.
+
+If the selected route is unavailable or fails, choose a simpler supported aid. If no useful visual can be presented, state the limit and use a verified text explanation. When displayed output is unavailable for inspection, briefly disclose that limit and keep the explanation grounded in checked content. Never claim unseen output was inspected or corrected.
+
+The teaching turn is ready when the explanation and suitable aid are presented, available accuracy checks are complete, and any tool limit or learner preference is accounted for. Count answer-revealing help as assistance under [Fair tasks and learning evidence](../SKILL.md#fair-tasks-and-learning-evidence). Preserve previously delivered visual tasks under [Portable record and storage](progress.md#portable-record-and-storage); the text-only task default does not authorize rewriting saved work.
