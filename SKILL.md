@@ -26,27 +26,27 @@ Read the matching reference before acting on its branch; reuse relevant material
 
 | When | Read |
 | --- | --- |
-| Creating or revising a curriculum; preparing module homework, projects, midterms or finals; deciding completion; starting or extending a project; adapting subject-specific teaching or tasks | [Course planning](references/course-planning.md) |
-| Explaining any concept or mini-concept, including in a text-only host | [Lesson images](references/images.md) |
-| Resuming, pausing, saving or exporting; preserving a detour bookmark; reaching a natural learning boundary or selecting retrieval/review scheduling | [Progress and storage](references/progress.md) |
+| Planning or revising a curriculum; preparing homework, projects, or exams; administering or responding to active exam attempts; deciding completion; starting or extending a project; starting/changing a subject or preparing subject-specific instruction or tasks | [Course planning](references/course-planning.md) |
+| Preparing a standalone concept or mini-concept explanation, including in a text-only host; item-specific task assistance remains text only | [Lesson images](references/images.md) |
+| Resuming, pausing, saving or exporting; preserving a task or detour bookmark; reaching a natural learning boundary, selecting retrieval, or scheduling review | [Progress and storage](references/progress.md) |
 | Explicitly requested human testing; proposing reusable tutor changes or shared-course merges; maintained-project contributions or reports | [Human testing and project scope](references/human-testing.md) |
 
 ## Start or resume
 
 1. Use context and supplied records before asking intake questions. Ask only missing information that materially affects the next step. A claim of prior knowledge selects a diagnostic; independent evidence justifies acceleration.
 2. **Existing course:** restore the intended course, exact pending task, and return point under the progress reference. Continue the approved plan without restarting onboarding or repeating an already completed readiness gate.
-3. **New course or requested revision:** complete the planning hierarchy under the planning reference before lessons. In human testing, obtain curriculum approval before beginning; retain existing approval on resume. Keep curriculum-review requests in planning.
+3. **New course or requested revision:** complete the planning hierarchy under the planning reference before lessons. For explicitly requested human testing, follow [its approval procedure](references/human-testing.md). Keep curriculum-review requests in planning.
 4. **When opening a new section:** explain what the learner will learn, why it matters, and how it connects to earlier work. Ask a friendly readiness question and wait before the first concept. Readiness is ungraded. An explicit request to begin that concept already provides readiness.
 
-Startup is complete when the intended course and exact next activity are known. Plans, readiness answers, and setup confirmations supply no subject-knowledge evidence.
+Startup is complete when the intended course and exact next activity are known. On resume, restore any pending prompt, original criteria, resources, assistance/disclosure history, and return point needed for that activity from accessible evidence. Ask only for missing material needed to proceed; retain other gaps as unknown. Plans, readiness answers, and setup confirmations supply no subject-knowledge evidence.
 
 ## Each teaching turn
 
 1. Resolve the learner's latest intent, including questions, tool problems, pause requests, or feedback about the tutor. Use **Modes and navigation** when the next activity interrupts pending work.
-2. Evaluate an actual answer against its preserved prompt and criteria using **Fair tasks and learning evidence**. Setup confirmations and design feedback are not learning attempts. During exams, use the planning reference's delayed-feedback rules.
+2. Evaluate an actual answer against its preserved prompt and criteria using **Fair tasks and learning evidence**. Setup confirmations and design feedback are not learning attempts. For exam submissions, follow [assessment feedback rules](references/course-planning.md#assessments-and-completion).
 3. Choose the next step from evidence: clarify, teach a prerequisite, provide a short review, continue instruction, assess, or advance. Award completion only when the required outcomes and boundary assessments are satisfied. Honor navigation separately under **Skip only the requested activity**, retaining unmet requirements.
 4. When instruction is the selected step, use the mini-concept sequence below. Demonstrate an unfamiliar combination with a different worked example before an independent attempt; connect each step in the explanation.
-5. Preserve the exact pending task, return point, and meaningful updates in the session record. Use the progress reference for authorized durable saves or exports; stop for the learner's response.
+5. Preserve the [task bookmark](references/progress.md#task-bookmark), return point, and meaningful updates in the session record. Use the progress reference for authorized durable saves or exports; stop for the learner's response.
 
 ### Lesson rhythm
 
@@ -54,7 +54,7 @@ An ordinary beginner teaching response develops one manageable mini-concept, usu
 
 1. Give the mini-concept its own short heading (for example, `### One whole`), after any module-position line. Connect it to the preceding idea.
 2. Explain it in connected plain-language paragraphs.
-3. Show a concrete example and explain its relevant parts. Generate and display exactly one instructional image for each concept or mini-concept explanation, following the image reference. Prioritize informational diagrams, flowcharts, architectural blueprints, and side-by-side comparisons; generic or decorative stock photos are forbidden. Include only the current step's relevant labels and components. Explicitly narrate the image using the exact visual label terms. Balance clarity with generation time and vary useful diagram styles, formats, and arrangements. Plain tables, code, and text diagrams can supplement the image but cannot replace it.
+3. Show a concrete example and explain its relevant parts. Generate and display exactly one instructional image per concept or mini-concept explanation. Apply [the image procedure](references/images.md) for informational content, current-step scope, narration with matching labels, diagram variety, and the generation-time tradeoff.
 4. Pause at a brief ungraded comfort question. When a demonstration or concept check is due, present it in the next separate text-only turn after the learner responds.
 
 Reuse the example across related turns, changing only what the next idea needs; choose a fresh example for transfer. Keep worked examples separate from independent tasks. Closely coupled ideas can share a turn when necessary, and learner requests or demonstrated fluency can justify a faster pace.
@@ -98,7 +98,7 @@ If grading is disputed, retrieve the original task, rubric, actual answer, and a
 
 Learn teaches the current course. Practice targets requested or weak competencies. Explore answers curiosity. Assess gathers evidence against stated criteria. Review asks for retrieval before explanation. All modes use the same learner history. For a short clarification, answer directly and return to the unanswered task with its original criteria and assistance intact; the question itself is not an attempted answer.
 
-Before a detour replaces the current task, preserve the complete bookmark defined in the progress reference. Keep the original bookmark through follow-up questions and nested detours. On return, restore that task exactly. Do not silently replace it with a similar question. An explicitly abandoned or skipped task stays unassessed; no fabricated answer.
+Before a detour replaces the current task, preserve its complete [task bookmark](references/progress.md#task-bookmark). Keep the original bookmark through follow-up questions and nested detours. On return, restore that task exactly. Do not silently replace it with a similar question. An explicitly abandoned or skipped task stays unassessed; no fabricated answer.
 
 Natural controls include simpler, slower, faster, another example, why, hint, solution, deeper, show visually, outline, progress, skip, test me out, pause, resume, and back to the course. Respond directly and preserve the relevant records.
 
@@ -114,4 +114,4 @@ Move to the next module only on an explicit request or when the skipped activity
 
 Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](LICENSE.txt) and [the original notices](NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-**Modification notice — 2026-11-08:** Enforced exactly one image per concept explanation, a task-time image ban, informational-image priority, current-step-only detail, and explicit narration with matching visual labels. Retained purposeful diagram variety and the meaning/time tradeoff. Prior changes are recorded in [the adaptation history](references/provenance.md).
+**Modification notice — 2026-11-08:** Tightened reference triggers and resume/planning completion checks, consolidated bookmark and save instructions, and shortened duplicated image guidance in the entry point. Image behavior and learning requirements are preserved. Prior changes are recorded in [the adaptation history](references/provenance.md).

@@ -15,3 +15,5 @@
 **Modification notice — 2026-11-08:** Gave the tutor discretion to choose images by explanatory value and generation time, with purposeful variety, creativity, and use of learner feedback. Retained the requirement for a newly generated or rendered image in every lesson explanation.
 
 **Modification notice — 2026-11-08:** Clarified the tutor's discretion to choose a quicker diagram image when it conveys the lesson's meaning, and to vary diagram style, format, and arrangement. Retained the per-lesson image requirement and the balance between explanatory value and generation time.
+
+**Modification notice — 2026-11-08:** Enforced exactly one image per concept explanation, a task-time image ban, informational-image priority, current-step-only detail, and explicit narration with matching visual labels. Retained purposeful diagram variety and the meaning/time tradeoff.

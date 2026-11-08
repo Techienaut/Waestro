@@ -1,6 +1,6 @@
 # Course planning
 
-Read before creating or revising a curriculum, preparing module homework or a boundary project/exam, deciding completion, starting or extending a project, or adapting tasks to a subject. For task criteria and evidence judgments, use [Fair tasks and learning evidence](../SKILL.md#fair-tasks-and-learning-evidence); preserve checkpoints under [Portable record and storage](progress.md#portable-record-and-storage).
+For task criteria and evidence judgments, use [Fair tasks and learning evidence](../SKILL.md#fair-tasks-and-learning-evidence); preserve checkpoints under [Portable record and storage](progress.md#portable-record-and-storage).
 
 Organize **Course → Week → Section → Module → Concept → Mini-concept**. New weekly course plans use **14 modules per week**, unless the learner explicitly requests another count. For a full course, begin with a configurable 16-week plan: **224 modules** at that duration. Choose section boundaries from coherent outcomes and prerequisites. The number of sections per week and modules per section may vary according to the content; check each week's total across its actual sections. Fit instruction, practice, homework, projects, review, and assessments together within the learner's available hours. Share section-assessment time proportionally across the actual sections, and count project spacing across section boundaries. Avoid duplicating topics or multiplying the workload of earlier, larger modules. Preserve explicit duration/workload preferences. Weeks are planned learning blocks; extend time for essential concepts rather than declaring mastery to meet a date. Resume an existing approved plan as recorded; structural changes require a requested plan revision that preserves pending work and evidence.
 
@@ -18,6 +18,8 @@ Before accepting the plan, trace the concepts and operations needed by its outco
 When browsing is available, compare suitable public university syllabi and established paid/free course outlines. Evaluate topic coverage, prerequisite order, current accuracy, exercises, projects, and assessment rather than claiming an objectively best course. Use authoritative subject references to check omissions. Distinguish a public syllabus from access to paid content; disclose inaccessible sources. If fresh research is unavailable, label the plan provisional. Create original teaching and assessment material.
 
 Generate actual explanations, examples, exercises, homework prompts, project briefs, and assessment items only when the module or relevant review/assessment is active. Future modules remain plans. Expand active content progressively using current evidence; do not write a semester of lectures at the outset.
+
+A plan is ready when the required unit fields are filled, workload and boundary activities fit the available hours, the prerequisite trace is complete, and the next activity is identified.
 
 ## Assessments and completion
 

@@ -1,14 +1,12 @@
 # Progress and storage
 
-Use this reference for resumption, pauses, authorized saves and exports, detour bookmarks, and review scheduling.
-
 ## Resume from accessible evidence
 
 In a new session, use the learner's supplied progress record, course plan, and project artifacts, including authorized files the host can actually read. A path or earlier-chat reference alone is insufficient when its contents are inaccessible. Ask for only the missing content needed to resume accurately. Do not restart an approved course or invent missing history.
 
 ## Portable record and storage
 
-The private learner record contains: learner alias/goals/background/preferences; course and plan revision; week/section/module/concept/mini-concept position; current mode and testing context; exact pending task, criteria, resources, assistance, attempts, and disclosure; actual answers and feedback; evidence and correction history; completion history; active assessment; misconceptions and reviews; continuing-project checkpoints; detour return bookmarks; proposed changes and their approval/implementation status; next action; and source access limits.
+The private learner record contains: learner alias/goals/background/preferences; course and plan revision; week/section/module/concept/mini-concept position; current mode and testing context; pending-task and detour [bookmarks](#task-bookmark); actual answers and feedback; evidence and correction history; completion history; active assessment; misconceptions and reviews; continuing-project checkpoints; proposed changes and their approval/implementation status; next action; and source access limits.
 
 For each authorized save:
 
@@ -18,13 +16,13 @@ For each authorized save:
 
 At a natural stopping point, summarize the actual work, evidence, gaps, exact next position, and observed save outcome. Keep ordinary turn feedback concise enough to sustain the conversation while giving explanations the space they need.
 
-## Detour bookmark
+## Task bookmark
 
-Before replacing a pending task, preserve its exact prompt, inputs, original criteria, allowed resources, mode, full course position, assistance and disclosure history, attempts, and next action. Use this same bookmark through nested detours and when returning to the task. A transient session bookmark is not evidence of a durable save.
+For pending tasks and detours, preserve the exact prompt, inputs, original criteria, allowed resources, mode, full course position, assistance and disclosure history, attempts, and next action. Preserve the bookmark before replacing the current activity, keep it through nested detours, and use it when returning. A transient session bookmark is not evidence of a durable save.
 
 ## Exports and partial records
 
-At a pause, stopping point, or export request, preserve as much of the known record as possible under **Portable record and storage**. When authorized file storage or export is available, write to a supported destination, read back the contents, and report the actual path or accessible download before calling the export verified. Otherwise, provide copyable Markdown. Tell the learner to retain the export and provide it when resuming in another session; claim a download or durable save only when the actual result supports it. Visible chat history or a generated export alone does not prove it was retained for later use. If the export omits history, label it partial and identify the omissions.
+At a pause, stopping point, or export request, preserve as much of the known record as possible. When file export is available and authorized, follow [the save procedure](#portable-record-and-storage), then report the actual path or accessible download before calling the export verified. Otherwise, provide copyable Markdown. Tell the learner to retain the export and provide it when resuming in another session; claim a download or durable save only when the actual result supports it. Visible chat history or a generated export alone does not prove it was retained for later use. If the export omits history, label it partial and identify the omissions.
 
 This package does not include the original Python state validator or JSON schemas. Do not claim a manual record is schema-validated Waestro v2 state. Preserve an imported structured record without silently rewriting or migrating it; unknown structure or conflicts require reconciliation. Manual exports must retain known criteria, help, original work, corrections, and bookmarks.
 
