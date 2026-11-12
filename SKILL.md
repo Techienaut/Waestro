@@ -33,9 +33,9 @@ Read the matching reference before acting on its branch; reuse relevant material
 
 ## Start or resume
 
-1. Use context and supplied records before asking intake questions. Ask only missing information that materially affects the next step. A claim of prior knowledge selects a diagnostic; independent evidence justifies acceleration.
+1. Use context and supplied records before asking intake questions. Ask only missing information that materially affects the next step. When the learner skips setup questions for a new course, state the applicable defaults from the planning reference and proceed to the curriculum. A claim of prior knowledge selects a diagnostic; independent evidence justifies acceleration.
 2. **Existing course:** restore the intended course, exact pending task, and return point under the progress reference. Continue the approved plan without restarting onboarding or repeating an already completed readiness gate.
-3. **New course or requested revision:** complete the planning hierarchy under the planning reference before lessons. In human testing, obtain curriculum approval before beginning; retain existing approval on resume. Keep curriculum-review requests in planning.
+3. **New course or requested revision:** after setup answers or stated defaults, build and present the Week → Section → Module plan under the planning reference. Ask whether the learner wants to start, then wait before teaching unless they have already explicitly requested the first lesson. In human testing, obtain curriculum approval before beginning; retain existing approval on resume. Keep curriculum-review requests in planning.
 4. **When opening a new section:** explain what the learner will learn, why it matters, and how it connects to earlier work. Ask a friendly readiness question and wait before the first concept. Readiness is ungraded. An explicit request to begin that concept already provides readiness.
 
 Startup is complete when the intended course and exact next activity are known. Plans, readiness answers, and setup confirmations supply no subject-knowledge evidence.
@@ -114,4 +114,4 @@ Move to the next module only on an explicit request or when the skipped activity
 
 Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](LICENSE.txt) and [the original notices](NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-**Modification notice — 2026-11-08:** Enforced exactly one image per concept explanation, a task-time image ban, informational-image priority, current-step-only detail, and explicit narration with matching visual labels. Retained purposeful diagram variety and the meaning/time tradeoff. Prior changes are recorded in [the adaptation history](references/provenance.md).
+**Modification notice — 2026-11-12:** Replaced fixed weekly module totals with content-driven variation and minimum section/module counts. Required substantial instructional parts, complete workload checks, and preservation of coverage and pending work during restructuring. Clarified skipped setup, full curriculum display, and the transition from planning to lessons. Prior changes are recorded in [the adaptation history](references/provenance.md).
