@@ -6,91 +6,121 @@
 >
 > ☕ Click the **Buy Me a Coffee badge** to support—even a small donation helps keep these projects going! Thanks for the support 💛
 
-# Waestro
+# 🎓 Waestro
 
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE.txt)
 
-✨ **Vibe coded:** Built with AI assistance.
+## 🧭 1. What Waestro does
 
-Waestro helps an AI teach you one step at a time. It plans a course, explains small ideas, and gives you practice. Each concept gets exactly one helpful image, which the AI explains using matching labels. Quizzes, homework, and practice use text only. Images focus on your current step, with clear diagrams and useful variety.
+- ✨ **Vibe coded:** built with **AI assistance**.
+- 🧑‍🏫 **Waestro** helps an AI teach you **one step at a time**: plan a course, explain small ideas, and provide practice.
+- 🖼️ Each **concept** gets **exactly one helpful image**, focused on the current step with clear diagrams and useful variety.
+- 🏷️ The AI explains each image using **matching labels**.
+- 📝 **Quizzes, homework, and practice use text only**.
 
-## Watch it in action
+## 🎬 2. Watch it in action
+
+- 🎞️ **28-second preview:** see **Waestro** in action.
 
 [![Waestro in action: choose Python, review a course plan, learn with diagrams, answer a knowledge check, and request a starter project](docs/media/waestro-skill-highlight.gif)](https://www.youtube.com/watch?v=Q7Tt1KzbnS4)
 
-**28-second preview** · [Watch the full YouTube demo (21 minutes)](https://www.youtube.com/watch?v=Q7Tt1KzbnS4)
+- 📺 [**Watch the full YouTube demo (21 minutes)**](https://www.youtube.com/watch?v=Q7Tt1KzbnS4).
+- 🕰️ The walkthrough shows **v0.0.7**: skill setup, shaping a **Python** curriculum, learning **list comprehensions**, and requesting projects.
+- 🔄 The skill continues to change; use this repository’s **current instructions** for its latest behavior.
+- 🧰 **Setup and available tools** depend on your **AI app**.
 
-The walkthrough shows v0.0.7: setting up the skill, shaping a Python curriculum, learning list comprehensions, and requesting projects. The skill continues to change; use the current instructions in this repository for its latest behavior. Setup and available tools depend on your AI app.
+## 📦 3. Set it up
 
-## Set it up
+1. 📥 [**Download the ZIP file**](https://github.com/Techienaut/Waestro/archive/refs/heads/main.zip), unzip it, and **keep its files together**.
+2. 🧩 If your AI app **supports skills**, add the **whole folder** as a skill.
+   - 📎 If it supports **file uploads instead**, attach [**SKILL.md**](SKILL.md), all files in `references/`, and [**resume-card-template.md**](resume-card-template.md).
+3. 💬 Start a chat and ask the AI to **use Waestro**, as in the example below.
 
-1. [Download the ZIP file](https://github.com/Techienaut/Waestro/archive/refs/heads/main.zip) and unzip it. Keep its files together.
-2. If your AI app supports skills, add the whole folder as a skill. If it supports file uploads instead, attach [SKILL.md](SKILL.md), all files in `references/`, and [resume-card-template.md](resume-card-template.md).
-3. Start a chat and ask the AI to use Waestro, as shown below.
+- 📖 The AI must be able to **read the files**; if it cannot open them, **paste their text when asked**.
+- 🖼️ The GIF in `docs/media/` is **documentation only** and can be left out of the skill upload.
 
-The AI needs to read the files. If it cannot open them, paste their text when asked. The GIF in `docs/media/` is documentation only and can be left out of your skill upload.
+## 🐍 4. Example: learn Python
 
-## Example: learn Python
+1. ⌨️ **Paste this prompt:**
 
-Paste this into your chat:
+   > Use Waestro to teach me Python. I am a beginner and can study five hours a week. Make a course plan first. Then teach me one small step at a time.
 
-> Use Waestro to teach me Python. I am a beginner and can study five hours a week. Make a course plan first. Then teach me one small step at a time.
+2. ▶️ **Read the plan.** When you are ready, say:
 
-Read the plan. When you are ready, say:
+   > Start the first lesson.
 
-> Start the first lesson.
+- 🎛️ During a lesson, say **“Go slower,” “Use simpler words,”** or **“Show another example.”**
 
-During a lesson, you can say “Go slower,” “Use simpler words,” or “Show another example.”
+## 🗺️ 5. Shape the course before you start
 
-## Shape the course before you start
+- 🎯 Share your **goal, experience, available study time, and preferred difficulty**.
+- 🌐 You can learn **subjects beyond programming**.
+- ⏭️ If you **skip setup questions**, ask the AI to **state its assumptions before planning**.
+- 🗓️ The current **full-course starting estimate** is **16 weeks at 20 hours a week**; your goals, workload, and subject coverage can change the plan.
+- 📋 Ask for the **complete plan before lessons begin**:
 
-Tell Waestro your goal, experience, available study time, and preferred difficulty. You can learn subjects beyond programming. If you skip the setup questions, ask it to state its assumptions before planning. The current full-course starting estimate is 16 weeks at 20 hours a week; your goals, workload, and subject coverage can change that plan.
+  > Show the entire curriculum, including every week, section, and module, with outcomes, instructional parts, time estimates, homework, and project plans. Wait for me to review it before teaching.
 
-Ask to see the complete plan before starting lessons:
+- 🔎 Review **missing topics, unnecessary repetition, and realistic workload**.
+- 🛠️ Request a **harder course**, a **focused refresher**, or a plan based on a **syllabus you supply**.
+- 🧗 **Example: make the course more challenging.**
 
-> Show the entire curriculum, including every week, section, and module, with outcomes, instructional parts, time estimates, homework, and project plans. Wait for me to review it before teaching.
+  > Make this Python course more challenging. Include list comprehensions, reduce repetition, and preserve the agreed topic coverage and study time. Explain any tradeoffs before changing the plan.
 
-Check for missing topics, unnecessary repetition, and a realistic workload. You can ask for a harder course, a focused refresher, or a plan based on a syllabus you supply. For example:
+- 🆕 **Start fresh** rather than continuing an earlier course:
 
-> Make this Python course more challenging. Include list comprehensions, reduce repetition, and preserve the agreed topic coverage and study time. Explain any tradeoffs before changing the plan.
+  > Start a new course. Do not use my previous course records or personal memory to choose its content; use only the goals and background I give you here.
 
-For a fresh start rather than continuing an earlier course, say:
+## 🧪 6. Learn, check, and practice
 
-> Start a new course. Do not use my previous course records or personal memory to choose its content; use only the goals and background I give you here.
+### 🎛️ 6.1. Lessons and controls
 
-## Learn, check, and practice
+- 🧠 **Lessons** use short explanations, analogies, examples, and narrated diagrams.
+- 🧪 **Knowledge checks** ask you to **explain or apply an idea** and receive feedback.
+- 🕹️ **Steer the lesson at any time:**
+  - 🔁 **Another explanation:** “Explain list comprehensions using grocery prices as a real-world example.”
+  - 🔬 **More depth:** “Explain why this works and show a case where it would fail.”
+  - ⏱️ **A different pace:** “Go slower,” “Make this more challenging,” or “Give me a focused review.”
+  - 🧭 **Navigation:** “Go to the module on list comprehensions,” then “Back to the course” when you finish the detour.
+- ⏭️ **“Skip”** skips the **current question or smallest activity**; name a **module explicitly** to move past the whole module.
+- 📌 **Skipped work** stays **unassessed** and does not count as **mastery or completion**.
 
-Lessons use short explanations, analogies, examples, and diagrams narrated with matching labels. Knowledge checks ask you to explain or apply an idea and receive feedback. You can steer the lesson at any time:
+### 🏗️ 6.2. Homework and projects
 
-- **Another explanation:** “Explain list comprehensions using grocery prices as a real-world example.”
-- **More depth:** “Explain why this works and show a case where it would fail.”
-- **A different pace:** “Go slower,” “Make this more challenging,” or “Give me a focused review.”
-- **Navigation:** “Go to the module on list comprehensions,” then “Back to the course” when you finish the detour.
+- 📚 The course includes **module homework, projects, and assessments**.
+- 🪜 **Continuing projects** can grow through **milestones** as you learn more.
+- 💻 For **programming**, request a practical assignment with a **clear goal and starter code**:
 
-“Skip” skips the current question or smallest activity; name a module explicitly if you want to move past the whole module. Skipped work stays unassessed and does not count as mastery or completion.
+  > Give me a challenging real-world project using the concepts taught so far. Provide a starter file with TODOs where I write the code and tests for normal and edge cases. Show it in one code block and leave the implementation for me.
 
-The course includes module homework, projects, and assessments. Continuing projects can grow through milestones as you learn more. For programming, ask for a practical assignment with a clear goal and starter code:
+- 🛒 **Demo examples:** a **grocery-order project** and a **command-line expense-tracker capstone**; these are examples, not fixed assignments for every course.
+- 🔍 Ask for **milestones and feedback** as you build.
+- ⚠️ **Generated starter code** and **passing supplied tests** alone do not establish **independent competence**.
 
-> Give me a challenging real-world project using the concepts taught so far. Provide a starter file with TODOs where I write the code and tests for normal and edge cases. Show it in one code block and leave the implementation for me.
+## ⏸️ 7. Stop and come back
 
-The demo shows a grocery-order project and a command-line expense-tracker capstone. Those are examples, not fixed assignments for every course. Ask for milestones and feedback as you build; generated starter code and passing supplied tests alone do not establish independent competence.
+1. 💾 Before stopping, request your **course plan and progress record**:
 
-## Stop and come back
+   > Pause. Give me my course plan and a progress record, including my next task.
 
-Before you stop, say:
+2. 🗂️ **Save or copy both**.
+3. 🔄 In a new chat, **load Waestro the same way**, share both records, and say:
 
-> Pause. Give me my course plan and a progress record, including my next task.
+   > Continue my course from this record.
 
-Save or copy both. In a new chat, load Waestro the same way and share your plan and progress record. Then say:
+- 🧪 **Waestro is an experimental alpha** and still needs **feedback and steering**.
+- 🧰 Capabilities depend on your **AI app and model**; **image generation, code execution, and saving files** depend on the tools available in your session.
 
-> Continue my course from this record.
+## 🤝 8. Give feedback or contribute
 
-Waestro is an experimental alpha and still needs feedback and steering. What it can do depends on your AI app and model; image generation, code execution, and saving files depend on the tools available in your session.
+- 🐛 Describe **what you expected, what happened, and which course or task exposed the problem**.
+- 🕶️ Use **synthetic or anonymized examples**.
+- 🧪 As discussed in the video, trying a proposed **teaching change on a different subject** can help reveal whether it **generalizes**.
+- 📋 Follow the current [**contribution process**](CONTRIBUTING.md), including **maintainer approval before contribution work or opening a pull request**.
+- 🤝 [**Help improve Waestro**](CONTRIBUTING.md).
+- 🛡️ [**Report a security issue**](SECURITY.md).
 
-## Give feedback or contribute
+## ⚖️ 9. License and notices
 
-Tell us what you expected, what happened, and which course or task exposed the problem. Use synthetic or anonymized examples. As discussed in the video, trying a proposed teaching change on a different subject can help reveal whether it generalizes. Follow the current [contribution process](CONTRIBUTING.md), including maintainer approval before contribution work or opening a pull request.
-
-[Help improve Waestro](CONTRIBUTING.md) · [Report a security issue](SECURITY.md)
-
-License: [AGPL-3.0-only](LICENSE.txt). See [notices](NOTICE.txt).
+- ⚖️ **License:** [**AGPL-3.0-only**](LICENSE.txt).
+- 📜 See the repository’s [**notices**](NOTICE.txt).
