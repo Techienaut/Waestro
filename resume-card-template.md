@@ -29,7 +29,7 @@ This template is a human-readable fallback, not a complete canonical JSON export
 - Relevant learner responses and evaluated outcomes:
 - Introduced / assisted / independent / retained observations:
 - Completion supported by evidence:
-- Gaps, misconceptions, and due review:
+- Skipped activities, outstanding requirements, misconceptions, and due review:
 - Current project, actual files/version, previous checkpoint, open work, and next milestone:
 - Interrupted task and complete return bookmark:
 - Testing feedback and proposal approval/implementation status:

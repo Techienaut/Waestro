@@ -47,7 +47,7 @@
 
 2. ▶️ **Read the plan.** When you are ready, say:
 
-   > Start the first lesson.
+   > I approve this plan. Start the first lesson.
 
 - 🎛️ During a lesson, say **“Go slower,” “Use simpler words,”** or **“Show another example.”**
 
@@ -55,12 +55,10 @@
 
 - 🎯 Share your **goal, experience, available study time, and preferred difficulty**.
 - 🌐 You can learn **subjects beyond programming**.
-- ⏭️ If you **skip setup questions**, ask the AI to **state its assumptions before planning**.
-- 🗓️ The current **full-course starting estimate** is **16 weeks at 20 hours a week**; your goals, workload, and subject coverage can change the plan.
-- 📋 Ask for the **complete plan before lessons begin**:
-
-  > Show the entire curriculum, including every week, section, and module, with outcomes, instructional parts, time estimates, homework, and project plans. Wait for me to review it before teaching.
-
+- ⏭️ If you **skip setup questions**, Waestro states its assumptions. It uses **20 hours per week** if you haven’t given a weekly budget.
+- 🗓️ Your **weekly hours** include lessons, reading, practice, homework, projects, review, and assessments. The topics determine how many modules each section needs and how many weeks the course takes.
+- 📚 Waestro compares roadmaps, university syllabi, paid and free courses, MOOCs, and textbooks. **Full courses are completionist by default.** You can see which sources Waestro plans to cover in full, where you’ll learn and practice each required topic, which readings are supplementary, and which material it couldn’t verify.
+- 📋 Review the **whole numbered curriculum in chat**, with each module listed separately under its week and section. You’ll see its outcomes, teaching steps, time estimate, and homework, plus projects and assessments where they fall. Long plans can span several messages. After the last module, you can **approve and start** or **request changes**.
 - 🔎 Review **missing topics, unnecessary repetition, and realistic workload**.
 - 🛠️ Request a **harder course**, a **focused refresher**, or a plan based on a **syllabus you supply**.
 - 🧗 **Example: make the course more challenging.**
@@ -99,7 +97,9 @@
 
 ## ⏸️ 7. Stop and come back
 
-1. 💾 Before stopping, request your **course plan and progress record**:
+- 💬 Say **“Exit course”** to return to ordinary chat. When you resume in the same chat, Waestro gives a one-sentence reminder and picks up at the pending activity. Skipped work stays available for review.
+
+1. 💾 To continue in another chat, request your **course plan and progress record** before you stop.
 
    > Pause. Give me my course plan and a progress record, including my next task.
 

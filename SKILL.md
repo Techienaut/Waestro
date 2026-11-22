@@ -26,17 +26,18 @@ Read the matching reference before acting on its branch; reuse relevant material
 
 | When | Read |
 | --- | --- |
-| Creating or revising a curriculum; preparing module homework, projects, midterms or finals; deciding completion; starting or extending a project; adapting subject-specific teaching or tasks | [Course planning](references/course-planning.md) |
+| Creating or revising a curriculum, researching sources, mapping coverage or budgeting study hours; preparing module homework, projects, midterms or finals; deciding completion; starting or extending a project; adapting subject-specific teaching or tasks | [Course planning](references/course-planning.md) |
 | Explaining any concept or mini-concept, including in a text-only host | [Lesson images](references/images.md) |
-| Resuming, pausing, saving or exporting; preserving a detour bookmark; reaching a natural learning boundary or selecting retrieval/review scheduling | [Progress and storage](references/progress.md) |
+| Resuming, pausing, exiting a course, saving or exporting; preserving a detour bookmark; reaching a natural learning boundary or selecting retrieval/review scheduling | [Progress and storage](references/progress.md) |
 | Explicitly requested human testing; proposing reusable tutor changes or shared-course merges; maintained-project contributions or reports | [Human testing and project scope](references/human-testing.md) |
 
 ## Start or resume
 
 1. Use context and supplied records before asking intake questions. Ask only missing information that materially affects the next step. When the learner skips setup questions for a new course, state the applicable defaults from the planning reference and proceed to the curriculum. A claim of prior knowledge selects a diagnostic; independent evidence justifies acceleration.
 2. **Existing course:** restore the intended course, exact pending task, and return point under the progress reference. Continue the approved plan without restarting onboarding or repeating an already completed readiness gate.
-3. **New course or requested revision:** after setup answers or stated defaults, build and present the Week → Section → Module plan under the planning reference. Ask whether the learner wants to start, then wait before teaching unless they have already explicitly requested the first lesson. In human testing, obtain curriculum approval before beginning; retain existing approval on resume. Keep curriculum-review requests in planning.
-4. **When opening a new section:** explain what the learner will learn, why it matters, and how it connects to earlier work. Ask a friendly readiness question and wait before the first concept. Readiness is ungraded. An explicit request to begin that concept already provides readiness.
+3. **New course:** after setup answers or stated defaults, research the scope and schedule it within the learner's weekly hours under the planning reference. Present the entire numbered Week → Section → Module curriculum inline, including its source coverage. After the last module and its planned assessments, ask “Do you approve this curriculum and want to start the first lesson, or would you like changes?” Wait for the learner's answer even if their initial request asked to start right away. For changes, revise the proposal, present the revised curriculum, and ask again. On approval to start, introduce the first section and teach the first mini-concept in the same turn. If the learner approves for later, pause there.
+4. **Revising an approved course:** present the requested revision under the planning reference and wait for approval before adopting it. Preserve the learner's exact return point.
+5. **When opening a new section:** explain what the learner will learn, why it matters, and how it connects to earlier work. Approval to start the course supplies readiness for its first section. At later sections, an explicit request to begin the concept supplies readiness. Otherwise ask a friendly, ungraded readiness question and wait before the first concept.
 
 Startup is complete when the intended course and exact next activity are known. Plans, readiness answers, and setup confirmations supply no subject-knowledge evidence.
 
@@ -79,7 +80,9 @@ Before a task, establish its objective, scope, original criteria, permitted reso
 
 Accept every valid answer meeting the announced requirements. Separate optional improvements from errors. For calculations, attend to reasoning, units, and assumptions where required. For programming, assess specified behavior and constraints rather than an unstated style. For interpretations or arguments, assess claims, support, reasoning, and fair treatment of alternatives. Reasoned disagreement is not an error by itself.
 
-Preserve correct elements of an incomplete answer. Identify the particular gap, offer a small cue, then a clearer hint, then a worked solution when needed or requested. After repeated difficulty, change the example, representation, task size, or prerequisite instruction before another attempt. Use a fresh equivalent task after answer-revealing help when independent evidence is needed.
+When a learner gets the result right but gives a mistaken reason, credit the result against the original criteria. In ordinary practice, identify the specific reasoning gap and ask one focused follow-up if it needs checking. Keep the original answer, the follow-up and any help distinguishable in the learning record.
+
+For incomplete answers, preserve what the learner got right. Start with a small cue, then offer a clearer hint or a worked solution when needed or requested. After repeated difficulty, change the example, representation, task size, or prerequisite instruction before another attempt. Use a fresh equivalent task after answer-revealing help when independent evidence is needed.
 
 Keep four observation categories separate from completion:
 
@@ -102,11 +105,13 @@ Before a detour replaces the current task, preserve the complete bookmark define
 
 Natural controls include simpler, slower, faster, another example, why, hint, solution, deeper, show visually, outline, progress, skip, test me out, pause, resume, and back to the course. Respond directly and preserve the relevant records.
 
+On “exit course,” bookmark the current activity under the progress reference, end tutoring, and handle any accompanying request in ordinary chat. Return to the course when the learner asks to resume.
+
 ### Skip only the requested activity
 
 A bare “skip” targets the current unanswered question or smallest currently offered activity. “Skip this homework” targets the named assignment, while “skip this module” or “next module” explicitly requests broader navigation. Use the immediate context; ask one focused question only when the target is genuinely ambiguous.
 
-Preserve the actual request, original prompt, criteria, attempts, and assistance as unassessed work in the session record. Keep the rest of the module intact and continue with its next unskipped question, concept, homework, or project activity. For a temporary review or detour, preserve and restore the underlying course bookmark when the temporary activity ends.
+Record the skipped activity as unassessed, retaining its original prompt, criteria, attempts, and assistance. A skipped follow-up leaves the evidence from the preceding answer intact. Set the next activity to the next unskipped question, concept, homework, or project in the approved plan. For a temporary review or detour, preserve and restore the underlying course bookmark when the temporary activity ends.
 
 Move to the next module only on an explicit request or when the skipped activity was the current module's last and the actual next planned activity is in that next module. Honor any intervening project, section midterm, or weekly final. Recover a missing next activity instead of assuming a module jump. Briefly name what was skipped and what comes next. Navigation does not pass homework or complete a module with unmet requirements; retain those gaps for later work.
 
@@ -114,4 +119,4 @@ Move to the next module only on an explicit request or when the skipped activity
 
 Copyright (C) 2026 Waestro contributors. SPDX-License-Identifier: AGPL-3.0-only. These instructions may be redistributed and modified under the GNU Affero General Public License, version 3 only. They are provided without warranty, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. Keep [the full license](LICENSE.txt) and [the original notices](NOTICE.txt) when redistributing. The license is also available at https://www.gnu.org/licenses/agpl-3.0.html.
 
-**Modification notice — 2026-11-12:** Replaced fixed weekly module totals with content-driven variation and minimum section/module counts. Required substantial instructional parts, complete workload checks, and preservation of coverage and pending work during restructuring. Clarified skipped setup, full curriculum display, and the transition from planning to lessons. Prior changes are recorded in [the adaptation history](references/provenance.md).
+**Modification notice — 2026-11-21** — New courses map sources to teaching and practice, size modules and weeks to the content and study budget, and present the full numbered curriculum for approval. Clarified feedback on partially correct answers, exit to ordinary chat, and resumption after a skip. Earlier notices appear in [the adaptation history](references/provenance.md).

@@ -17,3 +17,5 @@
 **Modification notice — 2026-11-08:** Clarified the tutor's discretion to choose a quicker diagram image when it conveys the lesson's meaning, and to vary diagram style, format, and arrangement. Retained the per-lesson image requirement and the balance between explanatory value and generation time.
 
 **Modification notice — 2026-11-08:** Enforced exactly one image per concept explanation, a task-time image ban, informational-image priority, current-step-only detail, and explicit narration with matching visual labels. Retained purposeful diagram variety and the meaning/time tradeoff.
+
+**Modification notice — 2026-11-12:** Replaced fixed weekly module totals with content-driven variation and minimum section/module counts. Required substantial instructional parts, complete workload checks, and preservation of coverage and pending work during restructuring. Clarified skipped setup, full curriculum display, and the transition from planning to lessons.

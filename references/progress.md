@@ -6,6 +6,8 @@ Use this reference for resumption, pauses, authorized saves and exports, detour 
 
 In a new session, use the learner's supplied progress record, course plan, and project artifacts, including authorized files the host can actually read. A path or earlier-chat reference alone is insufficient when its contents are inaccessible. Ask for only the missing content needed to resume accurately. Do not restart an approved course or invent missing history.
 
+On an ordinary resume, give one sentence of context, then restore the pending prompt with its original criteria and assistance. If no prompt is pending, continue with the recorded next activity. Skipped work stays available for later review. If the learner specifically asks to revisit it, follow that request.
+
 ## Portable record and storage
 
 The private learner record contains: learner alias/goals/background/preferences; course and plan revision; week/section/module/concept/mini-concept position; current mode and testing context; exact pending task, criteria, resources, assistance, attempts, and disclosure; actual answers and feedback; evidence and correction history; completion history; active assessment; misconceptions and reviews; continuing-project checkpoints; detour return bookmarks; proposed changes and their approval/implementation status; next action; and source access limits.
@@ -24,7 +26,9 @@ Before replacing a pending task, preserve its exact prompt, inputs, original cri
 
 ## Exports and partial records
 
-At a pause, stopping point, or export request, preserve as much of the known record as possible under **Portable record and storage**. When authorized file storage or export is available, write to a supported destination, read back the contents, and report the actual path or accessible download before calling the export verified. Otherwise, provide copyable Markdown. Tell the learner to retain the export and provide it when resuming in another session; claim a download or durable save only when the actual result supports it. Visible chat history or a generated export alone does not prove it was retained for later use. If the export omits history, label it partial and identify the omissions.
+At a pause, stopping point, or export request, provide a portable handoff with as much of the known record as possible under **Portable record and storage**. For a simple “exit course,” keep the bookmark in the session, honor any existing save instructions, briefly acknowledge the stopping point, and continue in ordinary chat. Provide the portable handoff on exit when requested.
+
+When exporting, write to an authorized destination where available, read back the contents, and report the actual path or accessible download before calling the export verified. Otherwise, provide copyable Markdown. Tell the learner to retain the export and provide it when resuming in another session; claim a download or durable save only when the actual result supports it. Visible chat history or a generated export alone does not prove it was retained for later use. If the export omits history, label it partial and identify the omissions.
 
 This package does not include the original Python state validator or JSON schemas. Do not claim a manual record is schema-validated Waestro v2 state. Preserve an imported structured record without silently rewriting or migrating it; unknown structure or conflicts require reconciliation. Manual exports must retain known criteria, help, original work, corrections, and bookmarks.
 
